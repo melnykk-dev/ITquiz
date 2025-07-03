@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IT Quest: Find Your Class</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="intro" class="screen">
+    <h1>✨ IT Quest</h1>
+    <p>Answer some beginner-friendly questions to discover your ideal IT path!</p>
+    <button id="start-btn">Start Adventure</button>
+  </div>
+
+  <div id="quiz" class="screen hidden">
+    <h2 id="question-title"></h2>
+    <div id="options" class="options"></div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <div id="result" class="screen hidden">
+    <h1>Your Path:</h1>
+    <h2 id="final-role"></h2>
+    <div id="role-description"></div>
+    <canvas id="chart" width="600" height="600"></canvas>
+    <button id="restart-btn">Play Again</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
