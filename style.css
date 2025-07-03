@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0e0e0e;
+  color: #ffeb3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  background: #1a1a1a;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(255, 235, 59, 0.3);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 20px 0 10px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #ffeb3b;
+  border: none;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #fff176;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.option-btn {
+  background-color: #2a2a2a;
+  border: 2px solid #ffeb3b;
+  padding: 14px;
+  border-radius: 8px;
+  color: #ffeb3b;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option-btn:hover,
+.option-btn.selected {
+  background-color: #ffeb3b;
+  color: #1a1a1a;
+}
+
+.hidden {
+  display: none;
+}
+
+#chart {
+  margin: 40px auto 20px;
+  max-width: 600px;
+}
